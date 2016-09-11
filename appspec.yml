@@ -17,4 +17,8 @@ hooks:
     - location: scripts/stop_server
       timeout: 300
       runas: root
+  AfterInstall:
+    - location: scripts/echo_variables
+      timeout: 90
+      runas: root
 

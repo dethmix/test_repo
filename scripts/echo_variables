@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Application name $APPLICATION_NAME" >> /root/info_deploy
+echo "Deployment ID $DEPLOYMENT_ID" >> /root/info_deploy
+echo "Deployment GROUP name $DEPLOYMENT_GROUP_NAME " >> /root/info_deploy
+echo "Deployment GROUP ID $DEPLOYMENT_GROUP_ID" >> /root/info_deploy
+echo "LIFECYCLE_EVENT $LIFECYCLE_EVENT" >> /root/info_deploy
